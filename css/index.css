@@ -260,7 +260,42 @@ margin-top: 2%;
 	color: #fff;
 	margin-top: 1%;
 }
+/*____________________________________________________________________Nosotros */
 
+#divNosotros{
+	background-color: #808B96;
+	margin-top:1%;
+	margin-bottom: 3px;
+}
+#tituloNosotros{
+	text-align: center;
+}
+#containerNosotros{
+	background-color: #fff;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+.texNosotros{
+	text-align: justify;
+}
+/*_________________________________________________________________________Pagos*/
+
+#containerPagos{
+	background-color: #fff;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+#tituloPagos{
+	text-align: center;
+}
+
+.texPagos{
+	text-align: justify;
+}
+#divPagos{
+	background-color: #808B96;
+}
 
 /*____________________________________________________________________footer*/
 footer{
