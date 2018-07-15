@@ -1,0 +1,279 @@
+body{
+	background-image:  url("30000.jpg");
+
+}
+
+
+/* encabesado_____________________________________________ logo y titulo*/
+
+
+#logo{
+
+	width:100%;
+	height: 100PX;	
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+
+}
+#divlogo{
+	border: 1px solid #FFF;
+	margin-right:5%;
+}
+
+
+.container1{
+	background: #000;
+	height:130px;
+	margin-top: 1%;
+	
+	margin-left: 1%;
+}
+
+.nombrep{
+	color:  #A48604;
+text-align: center;
+}
+
+.divTitulo{
+	margin-top: 2%;
+}
+
+
+
+
+@media only screen and (max-width: 770px) {
+    #logo {
+        
+        width: 80%;
+}
+}
+/*_____________________________________________________________navegacion principal*/
+.navegacionp{
+	
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	margin-right: 2%;
+	margin-left: 10%;
+}
+
+
+
+.navbar-brand{
+	margin-left:50%;
+	color: 	#000000;
+	float: none;
+}
+
+.nombresMenu{
+color: #FFF;
+text-align: left;
+}
+
+#botonMenu{
+	margin-left: 1%;
+	display: none;
+}
+@media only screen and (max-width: 770px) {
+ .navegacionp{
+        
+        display:none;
+}
+}
+
+@media only screen and (max-width: 770px) {
+ #botonMenu{
+        
+        display: block;
+}
+}
+
+/*______________________________________________________________carrusel*/
+.carrusel{
+	margin-left: %;
+
+}
+
+
+#containerCarrusel{
+	background-color: #EAEDED;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+
+
+/* ____________________________________________________foto abogado */
+
+.fotoabogado{
+	margin-bottom: 1%;
+	margin-left: 6%;
+	
+}
+
+.imsAbogado{
+	height: 100%;
+	width: 100%;	
+}
+
+.nombre-cargo{
+	text-align: center;
+}
+
+.centrar-telefono{
+	text-align: center;
+	color: #000;
+
+}
+#fotoTelefono{
+	height: 50px;
+	width: 50px;
+	margin-top: 1%;
+}
+
+
+@media only screen and (max-width: 770px) {
+ .fotoabogado{
+        
+        width: 100%;
+        margin-top: 1%;
+}
+}
+/*_______________________________________________redesociales*/
+
+.redesSociales{
+	margin-top: 1%;
+	margin-bottom: 5%;
+	width: 20%;	
+	height:;
+
+}
+
+.contianerRedes{
+	margin-right:20%;
+	margin-left: 20%;
+	
+}
+
+#containerRedes{
+	background-color:#000;
+	margin-left:1%;
+}
+
+#tiReSo{
+	text-align: center;
+color: #fff;
+margin-top: 2%;
+}
+
+/*__________________________________________________servivio*/
+#serviciostitulo{
+	text-align: center;
+	margin-top: 0.5%;
+}
+
+.centrartxservicios{
+	text-align: center;
+}
+
+#servivios{
+	background-color: #FFFFFF;
+	margin-left: 1%;
+}
+
+.columnasServicios{
+	background-color: #808B96;
+	margin-bottom: 1px;
+	border: 1px solid #000;
+}
+
+.fotoServicios{
+	width:40%;
+	height: 100px;
+	margin-top: 1%;
+}
+
+/*____________________________________________________________________Aliados*/
+.columnasAliados{
+	background-color:#808B96;		
+	border: ;
+}
+
+.fotoAliados{
+	width:40%;
+	height:200px;
+	margin-top: 10%;
+	border-radius: 50%;
+}
+#aliados{
+	background-color: #FFFFFF;
+	margin-left: 1%;
+}
+
+/*____________________________________________________________________clientes*/
+#clientes{
+	background-color: #FFFFFF;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.columnasClientes{
+	background-color:#808B96;		
+	border: ;
+}
+.fotoClientes{
+	width:40%;
+	height:40px;
+	margin-top: 10%;
+	
+}
+/*____________________________________________________________________contactos */
+
+#sexionContactos{
+	background: #ffff;
+	margin-left: 1%;
+}
+.columnasContactos{
+	background: #808B96;
+}
+
+#divapicontac{
+	margin-top: 1%;
+	border: 3px solid #000;
+	margin-bottom: 1%;
+}
+#contactostitulo{
+	text-align: center;
+
+
+}
+
+
+#divNomContE{
+	background-color: #000;
+	height: 70px;
+	margin-bottom: 10%;
+
+}
+
+#h4TiCon{
+	text-align: center;
+	color: #fff;
+	margin-top: 1%;
+}
+
+
+/*____________________________________________________________________footer*/
+footer{
+	background-color: #000;
+	margin-left: 1%;
+}
+
+.footer{
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+.textofooter{
+	color: #FFFFFF;
+	text-align: center;
+}
