@@ -1,6 +1,44 @@
 body{
-	background-image:  url("30000.jpg");
+	background-color:#273746;
 
+}
+
+p{
+	color: #000;
+}
+/* encabesado_____________________________________________ header */
+header {
+  background: #000;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  
+
+}
+
+
+article{
+	padding-top: 11%;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    article {
+        
+        padding-top: 13%;
+     
+
+}
+}
+
+@media only screen and (max-width: 770px) {
+    article {
+        
+        padding-top: 23%;
+     
+
+}
 }
 
 
@@ -96,28 +134,35 @@ text-align: left;
 
 
 #containerCarrusel{
-	background-color: #EAEDED;
+	background-color:#273746; 
 	margin-top: 1%;
 	margin-left: 1%;
 }
-
+.imgCarrusel{
+	height: 200px;
+}
 
 
 /* ____________________________________________________foto abogado */
 
-.fotoabogado{
+.divfotoabogado{
 	margin-bottom: 1%;
 	margin-left: 6%;
+
 	
 }
 
-.imsAbogado{
-	height: 100%;
-	width: 100%;	
+#imsAbogado{
+	height: 120px;
+	width: 70%;	
+	border: 5px solid #1C2833;
+	margin-top: 1%;
+
 }
 
 .nombre-cargo{
 	text-align: center;
+	color: #fff;
 }
 
 .centrar-telefono{
@@ -126,8 +171,8 @@ text-align: left;
 
 }
 #fotoTelefono{
-	height: 50px;
-	width: 50px;
+	height: 30px;
+	width: 30px;
 	margin-top: 1%;
 }
 
@@ -142,7 +187,7 @@ text-align: left;
 /*_______________________________________________redesociales*/
 
 .redesSociales{
-	margin-top: 1%;
+	margin-top: %;
 	margin-bottom: 5%;
 	width: 20%;	
 	height:;
@@ -174,6 +219,7 @@ margin-top: 2%;
 
 .centrartxservicios{
 	text-align: center;
+	color: #000;
 }
 
 #servivios{
@@ -182,7 +228,7 @@ margin-top: 2%;
 }
 
 .columnasServicios{
-	background-color: #808B96;
+	background-color: #273746;
 	margin-bottom: 1px;
 	border: 1px solid #000;
 }
@@ -195,7 +241,7 @@ margin-top: 2%;
 
 /*____________________________________________________________________Aliados*/
 .columnasAliados{
-	background-color:#808B96;		
+	background-color:#273746  ;		
 	border: ;
 }
 
@@ -203,28 +249,41 @@ margin-top: 2%;
 	width:40%;
 	height:200px;
 	margin-top: 10%;
-	border-radius: 50%;
+	border-radius: 20%;
 }
 #aliados{
 	background-color: #FFFFFF;
 	margin-left: 1%;
 }
 
+#aliadostitulo{
+	text-align: center;
+	color: #000;
+	padding-top: 5.5%;
+}
+
 /*____________________________________________________________________clientes*/
+
 #clientes{
 	background-color: #FFFFFF;
 	margin-left: 1%;
 	margin-top: 1%;
 }
 .columnasClientes{
-	background-color:#808B96;		
+	background-color:#273746  ;		
 	border: ;
 }
 .fotoClientes{
 	width:40%;
-	height:40px;
+	height:100px;
 	margin-top: 10%;
+	border-radius: 10%;
 	
+}
+#clientestitulo{
+	text-align: center;
+	color: #000;
+	padding-top: 5%;
 }
 /*____________________________________________________________________contactos */
 
@@ -233,17 +292,17 @@ margin-top: 2%;
 	margin-left: 1%;
 }
 .columnasContactos{
-	background: #808B96;
+	background: #1C2833;
 }
 
 #divapicontac{
-	margin-top: 1%;
-	border: 3px solid #000;
+	margin-top: 1%;	
 	margin-bottom: 1%;
+
 }
 #contactostitulo{
 	text-align: center;
-
+	padding-top: 5.7%;
 
 }
 
@@ -261,19 +320,23 @@ margin-top: 2%;
 	margin-top: 1%;
 }
 #iframeContact{
-	width: 100%;
-	height:320px;
+	
+
 
 }
+
+
+
 /*____________________________________________________________________Nosotros */
 
 #divNosotros{
-	background-color: #808B96;
+	background-color:#273746  ;
 	margin-top:1%;
 	margin-bottom: 3px;
 }
 #tituloNosotros{
 	text-align: center;
+	padding-top: 5%;
 }
 #containerNosotros{
 	background-color: #fff;
@@ -293,13 +356,15 @@ margin-top: 2%;
 }
 #tituloPagos{
 	text-align: center;
+	padding-top: 5%;
 }
 
 .texPagos{
 	text-align: justify;
 }
 #divPagos{
-	background-color: #808B96;
+	background-color: #273746  ;
+
 }
 
 /*____________________________________________________________________footer*/
