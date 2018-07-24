@@ -41,13 +41,34 @@ article{
 }
 }
 
+@media screen and (max-device-width : 1024px) {
+
+       article {
+        
+        padding-top: 13%;
+     
+
+}
+
+}
+@media screen and (max-device-width : 770px) {
+
+article {
+        
+        padding-top: 23%;
+     
+
+}
+
+}
+
 
 /* encabesado_____________________________________________ logo y titulo*/
 
 
 #logo{
 
-	width:100%;
+	width:80%;
 	height: 100PX;	
 	margin-top: 3%;
 	margin-left: 10%;
@@ -80,7 +101,7 @@ text-align: center;
 
 
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 962px) {
     #logo {
         
         width: 80%;
@@ -112,26 +133,44 @@ text-align: left;
 	margin-left: 1%;
 	display: none;
 }
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 963px) {
  .navegacionp{
         
         display:none;
 }
 }
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 963px) {
  #botonMenu{
         
         display: block;
 }
 }
 
-/*______________________________________________________________carrusel*/
-.carrusel{
-	margin-left: %;
+@media screen and (max-device-width : 963px) {
+
+       .navegacionp{
+	        display:none;
+	        }
+
+}
+@media screen and (max-device-width : 963px) {
+
+#botonMenu{
+        
+        display: block;
+}
 
 }
 
+.dropdown-menu{
+	background: #000;
+}
+.dropdown-item{
+	color: #fff;
+}
+
+/*______________________________________________________________carrusel*/
 
 #containerCarrusel{
 	background-color:#273746; 
@@ -143,28 +182,18 @@ text-align: left;
 }
 
 
-/* ____________________________________________________foto abogado */
+/* ____________________________________________________texto carrusel */
 
-.divfotoabogado{
+.divtextocarrusel{
 	margin-bottom: 1%;
 	margin-left: 6%;
-
 	
 }
 
-#imsAbogado{
-	height: 120px;
-	width: 70%;	
-	border: 5px solid #1C2833;
-	margin-top: 1%;
-
+.textocarrusel{
+	color: #000;
 }
-
-.nombre-cargo{
-	text-align: center;
-	color: #fff;
-}
-
+/*___________________________________________________________sinta de contactos*/
 .centrar-telefono{
 	text-align: center;
 	color: #000;
@@ -173,17 +202,11 @@ text-align: left;
 #fotoTelefono{
 	height: 30px;
 	width: 30px;
-	margin-top: 1%;
+	margin-top: 2%;
 }
 
 
-@media only screen and (max-width: 770px) {
- .fotoabogado{
-        
-        width: 100%;
-        margin-top: 1%;
-}
-}
+
 /*_______________________________________________redesociales*/
 
 .redesSociales{
